@@ -41,7 +41,7 @@ WSO2ExecutionStrategy.prototype.executeRequest = function executeRequest(req, cb
 
     requestElement.appendChild(document.createTextNode(xml));
 
-    console.log(xml);
+    //console.log(xml);
 
     return self._canonicaliser.canonicalise(rootElement, function(err, xml) {
       if (err) {
@@ -79,7 +79,7 @@ WSO2ExecutionStrategy.prototype.executeRequest = function executeRequest(req, cb
           return cb(e);
         }
 
-        console.log(content);
+        //console.log(content);
 
         return cb(null, parsed, payload);
       });
