@@ -1,0 +1,30 @@
+{
+  "name": "xacml-wso2",
+  "version": "0.0.0",
+  "description": "WSO2 Identity Server execution strategy for xacml",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deoxxa/xacml-wso2.git"
+  },
+  "keywords": [
+    "xacml",
+    "wso2",
+    "strategy"
+  ],
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/deoxxa/xacml-wso2/issues"
+  },
+  "dependencies": {
+    "xml-entities": "0.0.1",
+    "xpath": "0.0.5",
+    "xmldom": "~0.1.16",
+    "request": "~2.29.0",
+    "xml-c14n": "0.0.6"
+  },
+  "peerDependencies": {
+    "xacml": "0.0.1"
+  }
+}
